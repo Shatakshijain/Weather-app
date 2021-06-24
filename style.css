@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url('images/bg.jpg')no-repeat center center/cover;
+    
+    
+}
+
+.img{
+    opacity: 0.3;
+}
+.main{
+    width: 50vh;
+    padding: 20px;
+    margin: 100px auto;
+    background: rgba(240, 248, 255, 0.6);
+}
+.main>*{
+    margin-bottom: 20px;
+}
+.input-box{
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-box:focus{
+    background-color: rgba(255,255,255);
+}
+.weather-body{
+    display: none;
+    background-color: rgba(255,255,255,0.6);
+    color: #582233;
+    border-radius: 10px;
+    line-height: 2rem;
+    padding: 20px;
+    height: 50vh;
+    text-align: center;
+}
+.location{
+    font-weight: bold;
+}
+.weather-status{
+    padding: 20px;
+}
+.temp{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: rgba(0,0,0,0.3);
+}
+.weather{
+    font-size: 18px;
+    font-weight: 600;
+}
